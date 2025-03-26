@@ -1,5 +1,11 @@
-h1 style{
+h1 style {
     background-color: aliceblue;
     background-origin: padding-box;
+    border: 0cm;
+};
+b style {
+    background-color: aquamarine;
+    height: auto;
+    padding: 100px;
     border: 0cm;
 }
