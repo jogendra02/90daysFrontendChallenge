@@ -8,4 +8,9 @@ b style {
     height: auto;
     padding: 100px;
     border: 0cm;
+};
+i style {
+    background-color: aqua;
+    border-radius: 0%;
+    text-align:center;
 }
