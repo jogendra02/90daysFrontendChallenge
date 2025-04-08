@@ -8,9 +8,20 @@ function App() {
 
   return (
     <>
-      <h1>HI!</h1>
-      <h3>This is react project</h3>
-          </>
+      <h3>Instagram</h3>
+      <div>
+        <label for ="emailtext">Email</label>
+        <input type = "text"></input><br></br><br></br>
+        <label for ="passwordtext">Password
+
+        </label>
+        <input type = "text"></input><br></br><br></br><br></br>
+                <button type='text'>Login</button>
+        
+
+        
+        </div>    
+              </>
   )
 }
 
