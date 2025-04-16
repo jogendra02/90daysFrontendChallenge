@@ -19,3 +19,11 @@ const array = [
 
 ];
 console.log(array);
+const obj1 = {
+    name :"Geetha",
+    age :"20",
+    location :"Vadapalem"
+
+
+}
+console.log(obj1);
