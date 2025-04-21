@@ -27,3 +27,10 @@ const obj1 = {
 
 }
 console.log(obj1);
+const obj3 = {
+    name:"Nagamani",
+    age:"42",
+    location:"vadapalem"
+
+}
+console.log(obj3)
