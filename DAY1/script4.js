@@ -33,4 +33,10 @@ const obj3 = {
     location:"vadapalem"
 
 }
-console.log(obj3)
+console.log(obj3);
+const obj4 = {
+    name: "Rambabu",
+    age:"45",
+    location:"vadapalem"
+}
+console.log(obj4)
