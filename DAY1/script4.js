@@ -2,6 +2,7 @@ const obj = {
     name :"Naveen",
     age :"22",
     location :"tirupathi"
+    
 };
 console.log(obj.name);
 console.log(obj.age);
