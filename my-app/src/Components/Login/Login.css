@@ -39,5 +39,6 @@
   
   .login-form button:hover {
     background: #1a5ed9;
+    background-size: contain;
   }
   
