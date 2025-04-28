@@ -1,25 +1,20 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";  
-import axios from 'axios';
-import "./Login.css";
+import { Link } from "react-router-dom"; // ✅ ADD THIS
+import "./Signup.css";
 
-const Login = () => {
+const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleLogin = (e) => {
+  const handleSignup = (e) => {
     e.preventDefault();
-    if (email === "test@example.com" && password === "password123") {
-      alert("Login successful!");
-    } else {
-      alert("Invalid credentials");
-    }
+    alert(`Account created for ${email}`);
   };
 
   return (
-    <div className="login-container">
-      <form className="login-form" onSubmit={handleLogin}>
-        <h2>Login</h2>
+    <div className="signup-container">
+      <form className="signup-form" onSubmit={handleSignup}>
+        <h2>Sign Up</h2>
         <input
           type="email"
           placeholder="Email"
@@ -34,11 +29,11 @@ const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
           required
         />
-        <button type="submit">Login</button>
-        <p>Don't have an account? <Link to="/signup">Sign up</Link></p>
+        <button type="submit">Sign Up</button>
+        <p>Already have an account? <Link to="/login">Login</Link></p>
       </form>
     </div>
   );
 };
 
-export default Login;
+export default Signup;
