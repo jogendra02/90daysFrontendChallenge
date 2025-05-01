@@ -48,3 +48,9 @@ const obj5 = {
 
 }
 console.log(obj5)
+const obj6 = {
+    name: "Teja",
+    age: "5",
+    location: "hyderabad"
+}
+console.log(obj6)
