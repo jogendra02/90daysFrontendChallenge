@@ -1,6 +1,8 @@
 .col-4 {
     background-color: aliceblue;
-    border: 0ch;
+    border: 10px;
+    height: auto;
+    padding: 0%;
 };
 .p {
     background-color: antiquewhite;
